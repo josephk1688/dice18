@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0779AE1604902A002F0FB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0779AD1604902A002F0FB7 /* UIKit.framework */; };
+		EA0779B01604902A002F0FB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0779AF1604902A002F0FB7 /* Foundation.framework */; };
+		EA0779B21604902A002F0FB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0779B11604902A002F0FB7 /* CoreGraphics.framework */; };
+		EA0779B81604902A002F0FB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA0779B61604902A002F0FB7 /* InfoPlist.strings */; };
+		EA0779BA1604902A002F0FB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0779B91604902A002F0FB7 /* main.m */; };
+		EA0779BE1604902A002F0FB7 /* JoeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0779BD1604902A002F0FB7 /* JoeAppDelegate.m */; };
+		EA0779C11604902A002F0FB7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0779BF1604902A002F0FB7 /* MainStoryboard.storyboard */; };
+		EA0779C41604902A002F0FB7 /* JoeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0779C31604902A002F0FB7 /* JoeViewController.m */; };
+		EA0779CC1604902B002F0FB7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0779CB1604902B002F0FB7 /* SenTestingKit.framework */; };
+		EA0779CD1604902B002F0FB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0779AD1604902A002F0FB7 /* UIKit.framework */; };
+		EA0779CE1604902B002F0FB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0779AF1604902A002F0FB7 /* Foundation.framework */; };
+		EA0779D61604902B002F0FB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA0779D41604902B002F0FB7 /* InfoPlist.strings */; };
+		EA0779D91604902B002F0FB7 /* dice18Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0779D81604902B002F0FB7 /* dice18Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA0779CF1604902B002F0FB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0779A01604902A002F0FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA0779A81604902A002F0FB7;
+			remoteInfo = dice18;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA0779A91604902A002F0FB7 /* dice18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dice18.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0779AD1604902A002F0FB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA0779AF1604902A002F0FB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA0779B11604902A002F0FB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA0779B51604902A002F0FB7 /* dice18-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dice18-Info.plist"; sourceTree = "<group>"; };
+		EA0779B71604902A002F0FB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA0779B91604902A002F0FB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA0779BB1604902A002F0FB7 /* dice18-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dice18-Prefix.pch"; sourceTree = "<group>"; };
+		EA0779BC1604902A002F0FB7 /* JoeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JoeAppDelegate.h; sourceTree = "<group>"; };
+		EA0779BD1604902A002F0FB7 /* JoeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoeAppDelegate.m; sourceTree = "<group>"; };
+		EA0779C01604902A002F0FB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EA0779C21604902A002F0FB7 /* JoeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JoeViewController.h; sourceTree = "<group>"; };
+		EA0779C31604902A002F0FB7 /* JoeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoeViewController.m; sourceTree = "<group>"; };
+		EA0779CA1604902B002F0FB7 /* dice18Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dice18Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0779CB1604902B002F0FB7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EA0779D31604902B002F0FB7 /* dice18Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dice18Tests-Info.plist"; sourceTree = "<group>"; };
+		EA0779D51604902B002F0FB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA0779D71604902B002F0FB7 /* dice18Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dice18Tests.h; sourceTree = "<group>"; };
+		EA0779D81604902B002F0FB7 /* dice18Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dice18Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA0779A61604902A002F0FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0779AE1604902A002F0FB7 /* UIKit.framework in Frameworks */,
+				EA0779B01604902A002F0FB7 /* Foundation.framework in Frameworks */,
+				EA0779B21604902A002F0FB7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0779C61604902B002F0FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0779CC1604902B002F0FB7 /* SenTestingKit.framework in Frameworks */,
+				EA0779CD1604902B002F0FB7 /* UIKit.framework in Frameworks */,
+				EA0779CE1604902B002F0FB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA07799E1604902A002F0FB7 = {
+			isa = PBXGroup;
+			children = (
+				EA0779B31604902A002F0FB7 /* dice18 */,
+				EA0779D11604902B002F0FB7 /* dice18Tests */,
+				EA0779AC1604902A002F0FB7 /* Frameworks */,
+				EA0779AA1604902A002F0FB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0779AA1604902A002F0FB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0779A91604902A002F0FB7 /* dice18.app */,
+				EA0779CA1604902B002F0FB7 /* dice18Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0779AC1604902A002F0FB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0779AD1604902A002F0FB7 /* UIKit.framework */,
+				EA0779AF1604902A002F0FB7 /* Foundation.framework */,
+				EA0779B11604902A002F0FB7 /* CoreGraphics.framework */,
+				EA0779CB1604902B002F0FB7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA0779B31604902A002F0FB7 /* dice18 */ = {
+			isa = PBXGroup;
+			children = (
+				EA0779BC1604902A002F0FB7 /* JoeAppDelegate.h */,
+				EA0779BD1604902A002F0FB7 /* JoeAppDelegate.m */,
+				EA0779BF1604902A002F0FB7 /* MainStoryboard.storyboard */,
+				EA0779C21604902A002F0FB7 /* JoeViewController.h */,
+				EA0779C31604902A002F0FB7 /* JoeViewController.m */,
+				EA0779B41604902A002F0FB7 /* Supporting Files */,
+			);
+			path = dice18;
+			sourceTree = "<group>";
+		};
+		EA0779B41604902A002F0FB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA0779B51604902A002F0FB7 /* dice18-Info.plist */,
+				EA0779B61604902A002F0FB7 /* InfoPlist.strings */,
+				EA0779B91604902A002F0FB7 /* main.m */,
+				EA0779BB1604902A002F0FB7 /* dice18-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA0779D11604902B002F0FB7 /* dice18Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0779D71604902B002F0FB7 /* dice18Tests.h */,
+				EA0779D81604902B002F0FB7 /* dice18Tests.m */,
+				EA0779D21604902B002F0FB7 /* Supporting Files */,
+			);
+			path = dice18Tests;
+			sourceTree = "<group>";
+		};
+		EA0779D21604902B002F0FB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA0779D31604902B002F0FB7 /* dice18Tests-Info.plist */,
+				EA0779D41604902B002F0FB7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA0779A81604902A002F0FB7 /* dice18 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0779DC1604902B002F0FB7 /* Build configuration list for PBXNativeTarget "dice18" */;
+			buildPhases = (
+				EA0779A51604902A002F0FB7 /* Sources */,
+				EA0779A61604902A002F0FB7 /* Frameworks */,
+				EA0779A71604902A002F0FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dice18;
+			productName = dice18;
+			productReference = EA0779A91604902A002F0FB7 /* dice18.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA0779C91604902B002F0FB7 /* dice18Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0779DF1604902B002F0FB7 /* Build configuration list for PBXNativeTarget "dice18Tests" */;
+			buildPhases = (
+				EA0779C51604902B002F0FB7 /* Sources */,
+				EA0779C61604902B002F0FB7 /* Frameworks */,
+				EA0779C71604902B002F0FB7 /* Resources */,
+				EA0779C81604902B002F0FB7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA0779D01604902B002F0FB7 /* PBXTargetDependency */,
+			);
+			name = dice18Tests;
+			productName = dice18Tests;
+			productReference = EA0779CA1604902B002F0FB7 /* dice18Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0779A01604902A002F0FB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Joe;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Joseph Kung";
+			};
+			buildConfigurationList = EA0779A31604902A002F0FB7 /* Build configuration list for PBXProject "dice18" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA07799E1604902A002F0FB7;
+			productRefGroup = EA0779AA1604902A002F0FB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0779A81604902A002F0FB7 /* dice18 */,
+				EA0779C91604902B002F0FB7 /* dice18Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA0779A71604902A002F0FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0779B81604902A002F0FB7 /* InfoPlist.strings in Resources */,
+				EA0779C11604902A002F0FB7 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0779C71604902B002F0FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0779D61604902B002F0FB7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA0779C81604902B002F0FB7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0779A51604902A002F0FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0779BA1604902A002F0FB7 /* main.m in Sources */,
+				EA0779BE1604902A002F0FB7 /* JoeAppDelegate.m in Sources */,
+				EA0779C41604902A002F0FB7 /* JoeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0779C51604902B002F0FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0779D91604902B002F0FB7 /* dice18Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA0779D01604902B002F0FB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA0779A81604902A002F0FB7 /* dice18 */;
+			targetProxy = EA0779CF1604902B002F0FB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA0779B61604902A002F0FB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0779B71604902A002F0FB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA0779BF1604902A002F0FB7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0779C01604902A002F0FB7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		EA0779D41604902B002F0FB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0779D51604902B002F0FB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA0779DA1604902B002F0FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA0779DB1604902B002F0FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA0779DD1604902B002F0FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dice18/dice18-Prefix.pch";
+				INFOPLIST_FILE = "dice18/dice18-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA0779DE1604902B002F0FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dice18/dice18-Prefix.pch";
+				INFOPLIST_FILE = "dice18/dice18-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA0779E01604902B002F0FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dice18.app/dice18";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dice18/dice18-Prefix.pch";
+				INFOPLIST_FILE = "dice18Tests/dice18Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EA0779E11604902B002F0FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dice18.app/dice18";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dice18/dice18-Prefix.pch";
+				INFOPLIST_FILE = "dice18Tests/dice18Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA0779A31604902A002F0FB7 /* Build configuration list for PBXProject "dice18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0779DA1604902B002F0FB7 /* Debug */,
+				EA0779DB1604902B002F0FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0779DC1604902B002F0FB7 /* Build configuration list for PBXNativeTarget "dice18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0779DD1604902B002F0FB7 /* Debug */,
+				EA0779DE1604902B002F0FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA0779DF1604902B002F0FB7 /* Build configuration list for PBXNativeTarget "dice18Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0779E01604902B002F0FB7 /* Debug */,
+				EA0779E11604902B002F0FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA0779A01604902A002F0FB7 /* Project object */;
+}
